@@ -8,4 +8,5 @@ app2.get('/', (req, res) => res.send('Testing DevOps CI/CD!!!'));
 
 
 app.listen(port);
+app2.listen(port);
 console.log(`App running on http://localhost:${port}`);
